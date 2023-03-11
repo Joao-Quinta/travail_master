@@ -1,0 +1,2 @@
+- difference entre these et article ?
+- private BC access ok ? 
