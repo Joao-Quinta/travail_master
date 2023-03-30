@@ -1,0 +1,35 @@
+producer gets data into kafka (cluster)
+produces data into topics
+
+what is in a kafka cluster? 
+-n brokers --> local storage
+
+consumers read the data stored in the kafka cluster
+a consumer can also be a producer and vice versa (use different topics)
+multiple consumers to the same topic are independant
+
+zookeeper --> consensus agreement 
+- cluster management
+- store ACLs 
+
+consumers and producers are decoupled -- 
+
+topics -- collection of related messages/events 
+can be thought of as a sequnce of events
+a topic is store somewhere
+for better scaling, we break the topic into partitions
+a partition is a log -- strict ordering
+
+kafka message
+headers, key, value, timestamp
+
+
+broker 
+manages partitions - manages log files
+takes requests from producers and consumers -- pub/sub
+replication -- each partition has a numberof replications -- leader & followers
+the producer wrties to the leader, the borker updates the followers automatically
+
+
+kafka 
+keeps track of where each consumer is in each partition (the offset)
