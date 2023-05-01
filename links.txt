@@ -1,0 +1,3 @@
+https://github.com/hyperledger-labs/hyperledger-labs.github.io/blob/43d1d6f61133ae652f5519cacbdfb9c6901aabe1/labs/aries-fabric.md
+https://github.com/rezkus/dims-devmode
+https://labs.hyperledger.org/weaver-dlt-interoperability/docs/external/architecture-and-design/decentralized-identity/
